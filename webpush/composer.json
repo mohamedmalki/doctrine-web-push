@@ -1,0 +1,35 @@
+{
+    "name": "doctrine-web-push/webpush",
+    "description": "Web Push library for PHP and laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamed malki",
+            "email": "malki.mohamed.upm@gmail.com",
+            "homepage": "http://doctrineweb.com",
+            "role": "Software Engineer Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2",
+        "illuminate/notifications": "^5.3|^6.0|^7.0",
+        "illuminate/support": "^5.1|^6.0|^7.0",
+        "minishlink/web-push": "^5.0"
+    },
+    "require-dev":{
+        "mockery/mockery": "~1.0",
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "DoctrineWeb\\WebPush\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DoctrineWeb\\WebPush\\Test\\": "tests"
+        }
+    }
+}
